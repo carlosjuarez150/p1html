@@ -1,19 +1,74 @@
 <HTML>
   <HEAD>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<scipt type="text/javascript" src="../Javascript/functions.js"> </script>
     <TITLE> Mi primera pagina </TITLE>
   </HEAD>
-  <BODY>
-     <h1> MI PERFIL PARA LA UNIVERSIDAD</h1>
-     <p> Hola soy juan me gustaria estudiar ingenieria en la UAZ.
+  <BODY style="background:cyan">
+      <header>
+         <nav> 
+              <ul>
+                    <li>
+                       <a href="index.html""> INICIO </a>
+                    </li>
+                    <li>
+                       <a href="Tema1.html"> TEMA 1 </a>
+                    </li>
+                    <li>
+                       <a href="Tema2.html"> TEMA 2 </a>
+                    </li>
+              </ul>
+          </nav>
+       </header>
+
+
+     <h1 style="color:red"> MI PERFIL PARA LA UNIVERSIDAD</h1>
+     <p class="parrafito"> Hola soy juan me gustaria estudiar ingenieria en la UAZ.
          pero mis otras opciones opcion son: el POLI
-     <h2>Mi bachillerato</h2>
+     <h2 id="galaxia21">Mi bachillerato</h2>
      <p> Estoy estudiando en el bachillerato de Fisico Matematico actualmento me encuetro en el 6to 
          y ultimo año de preparatoria 
      <h3> Mi formacionn para el trabajo</h3>
      <p> Estoy en la formacion de informatica o TIC´S 
+	<img class="img-peque" src="../imagenes/img1">
      <h4> Mi pasatiempo favorito</h4>
      <p> Mi pasatiempo favorito es jugar futbol y escuchar musica 
+     <u1>
+        <1i>probabilidad y estadistica</1i>
+        <1i>Geografia</1i>
+     </u1>
+     <h4> mi top de materias favoritas</h4>
 
-  </BODY>
+     <table border="1">
+        <th> lunes </th>
+        <th> martes </th>
+        <th> miercoles </th>
+      <tr>
+        <td> correr </td>
+	<td> caminar </td>
+        <td> comprar todos </td>
+      </tr>
+      <tr>
+	<td> Ver TV </T>
+	<td> ver series </td>
+	<td> jugar futbol </td>
+      </tr>
+    </table>
+
+    <button style="background:yellow" onclik="changeColor()"> SALUDAR </button>
+    <button style="background:white" onclik="changeColor()">COLOR</button>
+
+	<form action="#">
+	   <label form="name"> nombre: </label>
+	   <input type="text" id="nombre">
+	   <br>
+|	   <label for="lastN"> apellido: </label>
+	   <input type="text" id="apellido">
+	   <br>
+	   <input type="submit" value="enviar datos">
+	</form>
+</BODY>
 </HTML>
+
+
 
